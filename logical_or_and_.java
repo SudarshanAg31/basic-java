@@ -14,6 +14,6 @@ public class logical_or_and_ {
     else{
         System.out.println("kuch nhi");
     }
-    
+    sc.close();
  }   
 }

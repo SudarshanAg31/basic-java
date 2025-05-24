@@ -4,5 +4,6 @@ public class input {
         Scanner sc=new Scanner(System.in);
         int x=sc.nextInt();
         System.out.println(x);
+        sc.close();//this is use to remove warning while using Scanner
     }
 }

@@ -5,5 +5,6 @@ public class typecast {
     char ch=sc.next().charAt(0);
     int x=(int)ch;
     System.out.println(x);
+    sc.close();
 }    
 }

@@ -14,5 +14,6 @@ public class conditionals{
          else{
             System.out.println(x);
         }
+        sc.close();
     }
 }

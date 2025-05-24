@@ -13,5 +13,12 @@ public class for_loops {
         for(int i=10;i>=0;i--){
             System.out.println(i);
         }
+        // for loop can be as while loop
+        int j=1;
+        for(;j<=10;){
+            System.out.println(j);
+            j++;
+        }
+        sc.close();
     }
 }

@@ -6,5 +6,6 @@ public class print_with_varible {
         Scanner sc= new Scanner(System.in);
         int x=sc.nextInt();
         System.out.println("number "+x);
+        sc.close();
     }
 }
