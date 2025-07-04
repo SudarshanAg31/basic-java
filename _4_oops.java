@@ -1,3 +1,4 @@
+//class in diff file
 public class _4_oops {
     public static void main(String[] args) {
         oops_student s1=new oops_student();
