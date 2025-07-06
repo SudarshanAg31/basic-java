@@ -14,3 +14,4 @@ public class oops_student_2_ {
         this.percent=percent;
     }
 }
+

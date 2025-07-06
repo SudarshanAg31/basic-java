@@ -8,3 +8,4 @@ public class _8_oops {
         //s1.school_name="gla";//we can't assign vlaue
     }
 }
+
