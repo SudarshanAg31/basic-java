@@ -20,3 +20,4 @@ public class _7_oops {
         System.out.println(s2.percent);
     }
 }
+
