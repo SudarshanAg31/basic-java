@@ -1,3 +1,4 @@
+//private static 
 //if we want to access value of x so,we use getter function
 public class _10_oops {
     public static void main(String[] args) {
