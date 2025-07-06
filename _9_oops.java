@@ -1,3 +1,4 @@
+//static keyword
 public class _9_oops {
     public static void main(String[] args) {
         oops_student_3_ s1= new oops_student_3_(19, 31, "sudarshna");
