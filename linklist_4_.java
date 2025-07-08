@@ -27,3 +27,4 @@ public class linklist_4_ {
         System.out.println(size);
     }   
 }
+
