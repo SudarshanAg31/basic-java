@@ -71,3 +71,4 @@ public class linklist_5_ {
         l1.display();
     }
 }
+
