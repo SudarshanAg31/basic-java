@@ -48,14 +48,42 @@ public class linklist_5_ {
                 head=temp;
             }
         }
-        public void insertInMid(int idx,int val){
-            node temp=new node(val);
+        public void insertInMid(int val,int idx){
+            node t=new node(val);
+            node temp=head;//to get a address of idx-1 we need to get the value up to there
+            if(idx==0){
+                insertAtBeg(val);
+                return;
+            }
+            else if(idx==size()-1){
+                insertAtEnd(val);
+                return;
+            }
+            else if(idx>=size()){
+                System.out.println("idx out of bound");
+                return;
+            }
+            else{
+            for(int i=1;i<=idx-1;i++){
+                temp=temp.next;//reach to n-1 idx
+            }
+            t.next=temp.next;//frist we connect n+1 with idx
+            temp.next=t;//then we connect n-1 idx with idx
+            }
+        }
+        public void get(int idx){
+            node temp=head;
+            for(int i=0;i<idx;i++){
+                temp=temp.next;
+            }
+            System.out.println(temp.data);
+        }
+        public void deleteAtIdx(int idx){
             node t=head;
-            for(int i=0;i<idx-1;i++){
+            for(int i=1;i<=idx-1;i++){
                 t=t.next;
             }
-            temp.next=t.next;
-            t.next=temp;
+            t.next=t.next.next;
         }
     }
     public static void main(String[] args) {
@@ -67,7 +95,10 @@ public class linklist_5_ {
         System.out.println(l1.size());
         l1.insertAtBeg(10);
         l1.display();
-        l1.insertInMid(2, 10);
+        l1.insertInMid(2, 90);
+        l1.display();
+        l1.get(3);
+        l1.deleteAtIdx(3);
         l1.display();
     }
 }
