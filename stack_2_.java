@@ -21,7 +21,7 @@ public class stack_2_ {
             st2.push(x);
         }
         System.out.println(st);//due to this we move data from one stack to another 
-        System.out.println(st2);//then it fransfer from st1 to st2 so, 
+        System.out.println(st2);//then it transfer from st1 to st2 so, 
         //now it is in same order  
     }
 }
