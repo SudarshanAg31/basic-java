@@ -22,6 +22,8 @@ public class Main {
         System.out.println("cyber security");
         System.out.println("fundamental of linux");
         System.out.println("try hack me");
+        System.out.println("rest");
+
 
 
 
