@@ -23,6 +23,8 @@ public class Main {
         System.out.println("fundamental of linux");
         System.out.println("try hack me");
         System.out.println("rest");
+        System.out.println("rest");
+
 
 
 
