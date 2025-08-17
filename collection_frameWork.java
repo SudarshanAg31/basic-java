@@ -8,7 +8,6 @@ public class collection_frameWork {
             m.put(2, "tanvi");    
             m.put(3, "love");  
             m.put(3, "dhruv"); //over write   
-
             System.out.println(m);
             System.out.println(m.get(2));
             System.out.println(m.containsKey(4));
