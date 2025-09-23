@@ -9,14 +9,13 @@
 // 1. Non-Parameterized constructor : 
 
 // If we don’t create one then it is created by default by Java.
-
-class student{
-    student() {
-        System.out.println("student");
-    }
-}
 public class oops_constuctor1 {
     public static void main(String[] args) {
-        student s1=new student();
+        student1 s1=new student1();
+    }
+}
+class student1{
+    student1() {
+        System.out.println("student");
     }
 }
