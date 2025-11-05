@@ -13,6 +13,7 @@ public class hashset {
         System.out.println(st.contains(4));
         st.remove(4);
         System.out.println(st);
+        st.clear();//remove all element present in set
 
     }
 }
