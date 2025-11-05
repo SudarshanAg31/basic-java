@@ -6,7 +6,7 @@ public class static_keyword {
         s1.name="sudarshan";
         System.out.println(student.School_name);//by class name we class School_name
         System.out.println(s1.School_name);//by reference variable we class the school_name
-        System.out.println(s1.name);//we call non static variable
+        System.out.println(s1.name);//we call non static variable after declare object
         student.change();//change the name of the school
         System.out.println(student.School_name);
         s1.change();//change the name of the school but not good practice
@@ -25,7 +25,7 @@ public class static_keyword {
         greeting();//you can't use this because it requires an instance
         //but the function(fun) you are using it in does not depend on instances
 
-        //you cannot access non static stuff without referencing their instance ina static context 
+        //you cannot access non static stuff without referencing their instance in a static context 
         //hance,here I am referencing it
         static_keyword obj =new static_keyword();
         obj.greeting();
