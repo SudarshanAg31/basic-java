@@ -3,7 +3,7 @@ public class linklist_3_ {
         node temp=new node(val);
         node t=n1;
         while(t.next!=null){
-            t=t.next;//befour null 
+            t=t.next;//before null 
         }
         t.next=temp;
     }

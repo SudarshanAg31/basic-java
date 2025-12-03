@@ -19,7 +19,8 @@ public class hashmap_1_ {
         mp.remove("love");//it is remove
         mp.remove("dog");//null
         //checking if a key present
-        System.out.println(mp.containsKey("sudarshan"));//true
+        System.out.println(mp.size());
+        System.out.println(!mp.containsKey("sudarshan"));//true
         System.out.println(mp.containsKey("love"));//false
         //Adding a new entry only if the new key doesn't exist already
         mp.putIfAbsent("love", 19);//will enter

@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class Linked_list {
+public class linked_list {
     public static void main(String[] args) {
         LinkedList<Integer> ld=new LinkedList<>();
         ld.add(1);//add value to linkedList
